@@ -1,0 +1,9 @@
+javac -cp . com/adv_client/www/Main.java
+  
+mkdir -p ../build
+  
+jar -cfe ../build/adv__client.jar com.adv__client.www.Main .
+  
+echo "java -cp adv__client.jar com.adv_client.www.Main \$@" > ../build/run
+echo "java -cp adv__client.jar com.adv_client.www.Main %*" > ../build/win_run.bat
+chmod +x ../build/run
