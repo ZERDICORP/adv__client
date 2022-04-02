@@ -1,11 +1,9 @@
-<kbd><img src="https://github.com/ZERDICORP/adv__client/blob/master/screenshots/s1.jpg?row=true" alt="screenshot" width="325" height="350"></kbd>
-
 # adv__client
 #### Client for multiplayer game ADV.
 ## What it is? :eyes:
 
 **ADV** is an abbreviation that stands for.. idk to be honest :sweat_smile:  
-Maybe, **ADV**enture, or maybe **A**dult **D**og **V**iolence :dog:  
+Maybe, **ADV**enture, or maybe **A**dult **D**og **V**iolence.. :dog:  
 I thought that I would create an adventure game, hence the acronym. 
 
 I created this game just for fun, I wanted to learn more about sockets and network programming in general.  
@@ -18,30 +16,55 @@ As a result, we got such a fun 2D online shooter :gun:
 $ git clone https://github.com/ZERDICORP/adv__client.git
 ```
 
-#### Next make sure you have java installed
-> I tested this project only on version 17.0.3
+#### Next make sure you have java & jar installed
 ```
 $ java --version
+openjdk 17.0.3 2022-04-19
+OpenJDK Runtime Environment (build 17.0.3+3)
+OpenJDK 64-Bit Server VM (build 17.0.3+3, mixed mode)
+$ jar --version
+jar 17.0.3
 ```
 
 #### Next run the following command
-> If anyone is interested, we just run the build script in the src folder and go to the build folder
 ```
 $ cd adv__client/src/ && ./build && cd ../build/
 ```
+<details>
+  <summary>windows user?</summary>
+  
+  ```
+  > cd adv__client\src\ && win_build.bat && cd ..\build
+  ```
+</details>
 
 #### Finally we can run the program with the run script
 ```
 $ ./run
 [adv:log] Please specify a server..
 ```
+<details>
+  <summary>windows user?</summary>
+  
+  ```
+  > win_run.bat
+  [adv:log] Please specify a server..
+  ```
+</details>
 
-> Oops, I forgot to clarify something.. since this is an online multiplayer game, we have to tell our client which server he wants to join.  
-> So far only one server is available - mine.
+**Oops, I forgot to clarify something.. since this is an online multiplayer game, we have to tell our client which server he wants to join.  
+So far only one server is available - mine.**
 
 ```
 $ ./run 188.187.188.37:86
 ```
+<details>
+  <summary>windows user?</summary>
+  
+  ```
+  > win_run.bat 188.187.188.37:86
+  ```
+</details>
 
 #### Hooray!
 
@@ -80,3 +103,6 @@ You will be able to play, but the bottom of the game window will simply float un
 **Don't hit me hard!  
 I'm not a frontender!  
 It's not my thing to adjust pixels! :triumph:**
+
+## Screenshot
+![screenshot](https://github.com/ZERDICORP/adv__client/blob/master/screenshots/s1.jpg?row=true)
