@@ -287,7 +287,7 @@ class DrawPane extends JPanel
 			drawText(
 				"reloading.. (" + fields.get("timeToReload") + ")",
 				0, 0, 
-				Config.width, 50,
+				Config.width, 100,
 				24,
 				Color.WHITE
 			);
