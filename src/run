@@ -1,4 +1,4 @@
-rr *.class
+find . -name *.class -exec rm -rf {} +
 
 main_class_dir="com/adv_client/www"
 
