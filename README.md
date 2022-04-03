@@ -105,4 +105,4 @@ I'm not a frontender!
 It's not my thing to adjust pixels! :triumph:**
 
 ## Screenshot
-![screenshot](https://github.com/ZERDICORP/adv__client/blob/master/screenshots/s1.jpg?row=true)
+![image](https://user-images.githubusercontent.com/56264511/161407898-af69908b-691a-4d97-8bc5-1c266e4e6049.png)
