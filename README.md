@@ -1,4 +1,4 @@
-# adv__client
+# adv__client :space_invader:
 #### Client for multiplayer game ADV.
 ## What it is? :eyes:
 
