@@ -56,13 +56,13 @@ $ ./run
 So far only one server is available - mine.**
 
 ```
-$ ./run 188.187.188.37:86
+$ ./run 95.165.89.228:86
 ```
 <details>
   <summary>windows user?</summary>
   
   ```
-  > win_run.bat 188.187.188.37:86
+  > win_run.bat 95.165.89.228:86
   ```
 </details>
 
